@@ -1,8 +1,9 @@
 ---
 title: "revue_systematique_ACT_etudiants"
 author: "Emma Weigel et Lisa Bernier"
-date: "1/3/2022"
+date: "01/3/2022"
 output: html_document
+bibliography: biblio_ACT_etudiants.bib
 ---
 
 ```{r setup, include=FALSE}
