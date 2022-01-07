@@ -1,9 +1,9 @@
 ---
 title: "Revue systématique de l'intervention ACT chez les etudiants"
 author:
-- name: Emma Weigel
-- name: Lisa Bernier
-date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\. %B %Y')`"
+- name: Emma Weigel 
+- name: Lisa Bernier 
+date: 07.01.2022
 output:
   pdf_document: default
   html_document: default
