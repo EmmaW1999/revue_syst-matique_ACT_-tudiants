@@ -5,8 +5,8 @@ author:
 - name: Lisa Bernier 
 date: 07.01.2022
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 affiliation:
 - institution: Université de Paris-Nanterre
 bibliography: biblio_ACT_etudiants.bib
@@ -20,6 +20,8 @@ text-align: justify}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# **Introduction**   
 
 La santé mentale des étudiants n’a jamais été aussi mauvaise, devenant un grave problème de santé publique [@copeland_impact_2021]. La population étudiante est deux fois plus à risque de développer des problèmes de santé mentale que la population générale [@bayram_prevalence_2008], et cela se traduit par une hausse des diagnostics de troubles psychologiques [@morin_processes_2021]. En effet, des études ont montré une augmentation alarmante des niveaux de détresse psychologique des étudiants [@american_college_health_association_national_2019 ; @gregoire_use_2018 ; @viskovich_randomized_2020]. Ceux-ci déclarent que leurs performances académiques et leurs résultats scolaires sont considérablement impactés par le stress, l’épuisement, l’anxiété et la dépression [@edwards_novel_2019 ; @gregoire_ecological_2020 ; @howell_acceptance_2019]. Certains étudiants rapportent également un risque suicidaire plus élevé comparé aux personnes ayant déjà leur diplôme universitaire [@lageborn_ongoing_2017]. Ainsi, le fonctionnement global des étudiants est impacté négativement par ce déficit de flexibilité psychologique décuplé lors de ces dernières années de pandémie mondiale [@bruffaerts_mental_2018 ; @charbonnier_etudiants_2021 ; @katajavuori_promoting_2021] provoquant une constante augmentation des demandes d’aides psychologiques [@gregoire_use_2018 ; @viskovich_randomized_2020]. Ces constatations montrent la nécessité du développement et de la mise en place de programmes d’intervention basés sur l’ACT à visée préventive, et permettant l’amélioration de la santé mentale des étudiants [@gregoire_use_2018 ; @rasanen_online_2016 ; @viskovich_randomized_2020].
 
@@ -35,4 +37,6 @@ Toutefois, selon la récente méta-analyse de @howell_acceptance_2019, il reste 
  
 De ce fait, l’objectif principal de cette recherche est d’étudier la thérapie d’acceptation et d’engagement comme une intervention de soutien et de compréhension (et non de prise en charge) pour lutter contre la détresse psychologique des étudiants. 
 
+
+# **Références**
 
