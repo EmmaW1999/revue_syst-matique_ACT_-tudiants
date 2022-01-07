@@ -5,8 +5,8 @@ author:
 - name: Lisa Bernier 
 date: 07.01.2022
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 affiliation:
 - institution: Université de Paris-Nanterre
 bibliography: biblio_ACT_etudiants.bib
