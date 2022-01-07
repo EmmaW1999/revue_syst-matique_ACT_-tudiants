@@ -1,18 +1,27 @@
 ---
-title: "revue_systematique_ACT_etudiants"
-author: "Emma Weigel et Lisa Bernier"
-date: "01/3/2022"
+title: "Revue systématique de l'intervention ACT chez les etudiants"
+author: 
+- name: Emma Weigel
+- name: Lisa Bernier
+date: "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+affiliation: 
+- institution: Université de Paris-Nanterre
 output: html_document
 bibliography: biblio_ACT_etudiants.bib
 ---
+
+<style>
+body {
+text-align: justify}
+</style>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-La santé mentale des étudiants n’a jamais été aussi mauvaise, devenant un grave problème de santé publique [@copeland_impact_2021]. La population étudiante est deux fois plus à risque de développer des problèmes de santé mentale que la population générale [@bayram_prevalence_2008], et cela se traduit par une hausse des diagnostics de troubles psychologiques [@morin_processes_2021]. En effet, des études ont montré une augmentation alarmante des niveaux de détresse psychologique des étudiants [@american_college_health_association_national_2019 ; @gregoire_use_2018 ; @howell_acceptance_2019 ; @rasanen_online_2016 ; @viskovich_randomized_2020]. Ceux-ci déclarent que leurs performances académiques et leurs résultats scolaires sont considérablement impactés par le stress, l’épuisement, l’anxiété et la dépression [@edwards_novel_2019 ; @gregoire_ecological_2020 ; @howell_acceptance_2019]. Certains étudiants rapportent également un risque suicidaire plus élevé comparé aux personnes ayant déjà leur diplôme universitaire [@lageborn_ongoing_2017]. Ainsi, le fonctionnement global des étudiants est impacté négativement par ce déficit de flexibilité psychologique décuplé lors de ces dernières années de Pandémie mondiale [@bruffaerts_mental_2018 ; @charbonnier_etudiants_2021 ; @katajavuori_promoting_2021] provoquant une constante augmentation des demandes d’aides psychologiques [@gregoire_use_2018 ; @viskovich_randomized_2020].Ces constatations montrent la nécessité du développement et de la mise en place de programmes d’intervention basés sur l’ACT à visée préventive, et permettant l’amélioration de la santé mentale des étudiants [@gregoire_use_2018 ; @rasanen_online_2016 ; @viskovich_randomized_2020].
+La santé mentale des étudiants n’a jamais été aussi mauvaise, devenant un grave problème de santé publique [@copeland_impact_2021]. La population étudiante est deux fois plus à risque de développer des problèmes de santé mentale que la population générale [@bayram_prevalence_2008], et cela se traduit par une hausse des diagnostics de troubles psychologiques [@morin_processes_2021]. En effet, des études ont montré une augmentation alarmante des niveaux de détresse psychologique des étudiants [@american_college_health_association_national_2019 ; @gregoire_use_2018 ; @howell_acceptance_2019 ; @rasanen_online_2016 ; @viskovich_randomized_2020]. Ceux-ci déclarent que leurs performances académiques et leurs résultats scolaires sont considérablement impactés par le stress, l’épuisement, l’anxiété et la dépression [@edwards_novel_2019 ; @gregoire_ecological_2020 ; @howell_acceptance_2019]. Certains étudiants rapportent également un risque suicidaire plus élevé comparé aux personnes ayant déjà leur diplôme universitaire [@lageborn_ongoing_2017]. Ainsi, le fonctionnement global des étudiants est impacté négativement par ce déficit de flexibilité psychologique décuplé lors de ces dernières années de pandémie mondiale [@bruffaerts_mental_2018 ; @charbonnier_etudiants_2021 ; @katajavuori_promoting_2021] provoquant une constante augmentation des demandes d’aides psychologiques [@gregoire_use_2018 ; @viskovich_randomized_2020]. Ces constatations montrent la nécessité du développement et de la mise en place de programmes d’intervention basés sur l’ACT à visée préventive, et permettant l’amélioration de la santé mentale des étudiants [@gregoire_use_2018 ; @rasanen_online_2016 ; @viskovich_randomized_2020].
 
-La thérapie d’acceptation et d’engagement (ACT), issue de la troisième vague des thérapies cognitives et comportementales, est une intervention psychothérapeutique transdiagnostique relativement nouvelle. Elle utilise diverses composantes visant à accroître la flexibilité psychologique à travers six processus [@hayes_acceptance_2004]. L’ACT permet aux individus de vivre pleinement et sans évitement les émotions et sensations « problèmes » en les acceptants plutôt qu’en tentant la modification ou la réduction de celles-ci [@levin_web-based_2017]. En effet, la flexibilité psychologique ayant un rôle accru dans la promotion du bien-être émotionnel, psychologique et social [@edwards_novel_2019 ; @rasanen_online_2016], le développement de telles compétences chez les étudiants contribue à la prévention et à la diminution des problèmes de santé mentale [@viskovich_randomized_2020].
+La thérapie d’acceptation et d’engagement (ACT), issue de la troisième vague des thérapies cognitives et comportementales, est une intervention psychothérapeutique transdiagnostique relativement nouvelle. Elle utilise diverses composantes visant à accroître la flexibilité psychologique à travers six processus [@hayes_acceptance_2004]. L’ACT permet aux individus de vivre pleinement et sans évitement les émotions et sensations « problèmes » en les acceptant plutôt qu’en tentant la modification ou la réduction de celles-ci [@levin_web-based_2017]. En effet, la flexibilité psychologique ayant un rôle accru dans la promotion du bien-être émotionnel, psychologique et social [@edwards_novel_2019 ; @rasanen_online_2016], le développement de telles compétences chez les étudiants contribue à la prévention et à la diminution des problèmes de santé mentale [@viskovich_randomized_2020].
 
 Ainsi, les interventions visant la flexibilité psychologique, telles que l’ACT, permettent d’améliorer le bien-être des étudiants, ainsi que leurs performances académiques [@edwards_novel_2019 ; @howell_acceptance_2019 ; @katajavuori_promoting_2021 ; @rasanen_online_2016]. En effet, les étudiants participant à des interventions ACT signalent une diminution des symptômes de stress, de détresse, d’anxiété et de dépression [@danitz_mindful_2016 ; @edwards_novel_2019 ; @gregoire_use_2018 ; @katajavuori_promoting_2021 ; @morin_processes_2021].
 
@@ -20,6 +29,6 @@ Face au mal-être étudiant, il est primordial de promouvoir une plus grande fle
 
 Toutefois, selon la récente méta-analyse de @howell_acceptance_2019, il reste encore à étudier davantage les effets des interventions de l’ACT afin d’analyser de façon plus approfondie leurs effets sur le bien-être des étudiants. De plus, depuis celle-ci, la situation étudiante n’a fait qu’empirer [@coquard_les_2021]. Après ces dernières années d’enseignements à distance sans interaction sociale ou lieu ouvert pour nombres de pays, une forte augmentation des niveaux d’anxiété, de dépression, et de détresse psychologique a été observée chez les étudiants [@essadek_mental_2020 ; @son_effects_2020]. Ce grave problème de santé publique atteint un point critique où les demandes d’aides psychologiques dans les universités et en ville ont augmentées de façon exponentielle, faisant ainsi preuve d’un besoin d’aide et de reconnaissance de cette situation par les étudiants [@holm-hadulla_well-being_2021].
  
-De ce fait, l’objectif principal de cette recherche est d’étudier la thérapie d’acceptation et d’engagement comme intervention de soutien et de compréhension (et non de prise en charge) pour lutter contre la détresse psychologique des étudiants. 
+De ce fait, l’objectif principal de cette recherche est d’étudier la thérapie d’acceptation et d’engagement comme une intervention de soutien et de compréhension (et non de prise en charge) pour lutter contre la détresse psychologique des étudiants. 
 
 
