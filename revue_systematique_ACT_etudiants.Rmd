@@ -1,8 +1,8 @@
 ---
 title: "Revue systématique de l'intervention ACT chez les etudiants"
 author:
-- name: Emma Weigel - 38011565
-- name: Lisa Bernier - 40013232
+- Emma Weigel - Numéro étudiant 38011565
+- Lisa Bernier - Numéro étudiant 40013232
 date: 07.01.2022
 output:
   pdf_document: default
